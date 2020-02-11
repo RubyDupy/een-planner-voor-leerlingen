@@ -1,0 +1,23 @@
+#Dag {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	width: 20%;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+#header {
+	color: yellow;
+}
+#info {
+	border-color: #000088;
+	border-width: 10px;
+	background-color: #FFFF44;
+}
+#knop {
+	width: 33.33%;
+}
+p {
+	font-family: arial;
+	
+}
