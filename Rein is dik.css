@@ -10,8 +10,7 @@
 	color: yellow;
 }
 #info {
-	border-color: #000088;
-	border-width: 10px;
+	border: 10px solid #000088;
 	background-color: #FFFF44;
 }
 #knop {
