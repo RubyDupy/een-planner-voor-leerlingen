@@ -11,6 +11,8 @@
 }
 #info {
 	border: 10px solid #000088;
+	margin: none;
+	padding: 5px;
 	background-color: #FFFF44;
 }
 #knop {
