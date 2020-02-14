@@ -2,7 +2,7 @@ body {
 	background color: #FFFFCC;
 }
 h1 {
-	color: #FFFF44;
+	color: #000088;
 	font-family: impact;
 }
 #Dag {
@@ -14,10 +14,10 @@ h1 {
 	cursor: pointer;
 }
 #header {
-	background-color: #000088;
+	background-color: #FFFF44;
 }
 #info {
-	border: 10px solid #000088;
+	border: 5px solid #000088;
 	margin: none;
 	padding: 5px;
 	background-color: #FFFF44;
