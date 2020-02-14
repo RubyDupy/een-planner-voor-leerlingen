@@ -46,10 +46,10 @@ input[type=text], input[type=password] {
 }
 
 #login-button {
-  background-color: #4CAF50;
+  background-color: #FFFF44;
   color: white;
   padding: 14px 20px;
-  margin: 8px 0;
+  margin: 8px #000088;
   border: none;
   cursor: pointer;
   width: 100%;
