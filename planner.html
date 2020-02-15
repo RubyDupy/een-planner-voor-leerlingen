@@ -1,6 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<style>
+#myDIV {
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+</style>
 <link rel="stylesheet" href="w3.css">
 <link rel="stylesheet" href="Rein is dik.css">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -44,29 +51,39 @@
   <td><button>Les 5</button></td>
 </tr>
 <tr>
-  <td><button>Les 1</button></td>
-  <td><button>Les 2</button></td>
-  <td><button>Les 3</button></td>
-  <td><button>Les 4</button></td>
-  <td><button>Les 5</button></td>
+  <td><button onclick="myFunction()">Les 1</button></td>
+  <td><button onclick="myFunction()">Les 2</button></td>
+  <td><button onclick="myFunction()">Les 3</button></td>
+  <td><button onclick="myFunction()">Les 4</button></td>
+  <td><button onclick="myFunction()">Les 5</button></td>
 </tr>
 <tr>
-  <td><button>Les 1</button></td>
-  <td><button>Les 2</button></td>
-  <td><button>Les 3</button></td>
-  <td><button>Les 4</button></td>
-  <td><button>Les 5</button></td>
+  <td><button onclick="myFunction()">Les 1</button></td>
+  <td><button onclick="myFunction()">Les 2</button></td>
+  <td><button onclick="myFunction()">Les 3</button></td>
+  <td><button onclick="myFunction()">Les 4</button></td>
+  <td><button onclick="myFunction()">Les 5</button></td>
 </tr>
 <tr>
-  <td><button>Les 1</button></td>
-  <td><button>Les 2</button></td>
-  <td><button>Les 3</button></td>
-  <td><button>Les 4</button></td>
-  <td><button>Les 5</button></td>
+  <td><button onclick="myFunction()">Les 1</button></td>
+  <td><button onclick="myFunction()">Les 2</button></td>
+  <td><button onclick="myFunction()">Les 3</button></td>
+  <td><button onclick="myFunction()">Les 4</button></td>
+  <td><button onclick="myFunction()">Les 5</button></td>
 </tr>
 </table>
 </div>
 </div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 <footer id="info">©2020, de Pieter Zandt Planner voor Leerlingen crew.</footer>
 </body>
 </html>	
