@@ -26,28 +26,62 @@
   <th>Vrijdag</th>
 </tr>
 <tr>
-  <td>1</td>
-  <td>2</td>
-  <td>3</td>
-  <td>4</td>
-  <td>5</td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 1</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 1</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 1</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 1</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 1</button></td>
 </tr>
 <tr>
-  <td>1</td>
-  <td>2</td>
-  <td>3</td>
-  <td>4</td>
-  <td>5</td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 2</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 2</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 2</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 2</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 2</button></td>
 </tr>
 <tr>
-  <td>1</td>
-  <td>2</td>
-  <td>3</td>
-  <td>4</td>
-  <td>5</td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 3</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 3</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 3</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 3</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 3</button></td>
+</tr>
+<tr>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 4</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 4</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 4</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 4</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 4</button></td>
+</tr>
+<tr>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 5</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 5</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 5</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 5</button></td>
+  <td><button class="w3-button w3-black" onclick="myFunction()">Les 5</button></td>
 </tr>
 </table>
 </div>
+
+	
+<div id="myDIV">
+<p>Onderwerp: Weet ik veel</p>
+<p>Leerdoelen: 1,2 en 3</p>
+<p>Lesstof: ????</p>
+<p>Huiswerk: Alles</p>
+<p>Volgende keer: ja</p>
+</div>
+	
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 </div>
 <footer id="info">©2020, de Pieter Zandt Planner voor Docenten crew.</footer>
 </body>
