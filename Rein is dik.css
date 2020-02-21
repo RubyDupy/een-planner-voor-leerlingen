@@ -2,12 +2,12 @@
 	width: 50%;
 }
 h1 {
-	color: #FFFF44;
+	color: #FF5500;
 	font-family: impact;
 }
 #uitlogknop {
 	width: 100%;
-	background-color: #FFFF44;
+	background-color: #FF5500;
 }
 #Dag {
 	color: #FFFFFF;
@@ -24,11 +24,11 @@ h1 {
 	border: 5px solid #000088;
 	margin: none;
 	padding: 5px;
-	background-color: #FFFF44;
+	background-color: #FF5500;
 }
 #knop {
 	width: 33.33%;
-	background-color: #fFFF44
+	background-color: #FF5500;
 }
 p {
 	font-family: arial;
@@ -50,7 +50,7 @@ input[type=text], input[type=password] {
 }
 
 #login-button {
-  background-color: #FFFF44;
+  background-color: #FF5500;
   color: white;
   padding: 14px 20px;
   margin: 8px #000088;
