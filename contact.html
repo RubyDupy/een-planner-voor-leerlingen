@@ -23,6 +23,7 @@
   <div class="container">
     <label for="email"><b>Je e-mailadres</b></label>
     <input type="text" placeholder="Voer een geldig e-mailadres in" name="email" required>
+	  <label for="sex"><b>Je geslacht</b></label>
 	  <select name="sex">
 		  <option disabled>Je geslacht</option>
 		  <option name="male">Mannelijk</option>
@@ -32,7 +33,14 @@
 		  <option name="no">Weet ik niet</option>
 		  <option name="TT">TikTok</option>
 	  </select>
-    <label for="msg"><b>Je bericht</b></label>
+	  <label for="int"><b>Wat zijn je intenties?</b></label>
+	  <select name="int">
+		  <option disabled>Je bedoelingen</option>
+		  <option name="kill">Een moord beramen</option>
+		  <option name="question">Een vraag stellen</option>
+		  <option name="no">Anders</option>
+	  </select>
+	<label for="msg"><b>Je bericht</b></label>
     <input type="text" placeholder="Vul een bericht in" name="msg" required>
 	  <input type="submit" value="verzend je bericht (verwacht wel antwoord)">
   </div>
