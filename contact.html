@@ -23,8 +23,15 @@
   <div class="container">
     <label for="email"><b>Je e-mailadres</b></label>
     <input type="text" placeholder="Voer een geldig e-mailadres in" name="email" required>
-	  <label for"sex"><b>Je geslacht</b></label>
-	  <input type="radio" name="sex">
+	  <select name="sex">
+		  <option disabled>Je geslacht</option>
+		  <option name="male">Mannelijk</option>
+		  <option name="female">Vrouwelijk</option>
+		  <option name="unk">Zeg ik liever niet</option>
+		  <option name="trans">Anders</option>
+		  <option name="no">Weet ik niet</option>
+		  <option name="TT">TikTok</option>
+	  </select>
     <label for="msg"><b>Je bericht</b></label>
     <input type="text" placeholder="Vul een bericht in" name="msg" required>
 	  <input type="submit" value="verzend je bericht (verwacht wel antwoord)">
